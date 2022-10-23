@@ -24,3 +24,9 @@
 /*.nav-link-text:hover{
     color: rebeccapurple;
 }*/
+.site-title {
+    font-size: 3rem;
+    color: rgb(47, 93, 146);
+    font-weight: 700;
+    margin: 3rem 0;
+}
