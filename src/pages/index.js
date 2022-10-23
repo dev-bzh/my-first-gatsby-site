@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 const pageStyles = {
   color: "#232129",
@@ -129,6 +130,10 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <Layout pageTitle="Homepage">
         <p>Texte inside layout component</p>
+        <StaticImage
+          alt="Plage by Connor James on Unsplash"
+          src="../images/bretagne-plage.jpg"
+        />
       </Layout>
       <h1 style={headingStyles}>
         Congratulations
